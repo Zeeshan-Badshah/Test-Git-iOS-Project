@@ -15,6 +15,7 @@
 		41A623F11A9796C900F968EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A623F01A9796C900F968EC /* Images.xcassets */; };
 		41A623F41A9796C900F968EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41A623F21A9796C900F968EC /* LaunchScreen.xib */; };
 		41A624001A9796CA00F968EC /* Git_PracticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A623FF1A9796CA00F968EC /* Git_PracticTests.m */; };
+		41A6240B1A979EDE00F968EC /* NewTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A6240A1A979EDE00F968EC /* NewTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		41A623F91A9796CA00F968EC /* Git PracticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git PracticTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A623FE1A9796CA00F968EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41A623FF1A9796CA00F968EC /* Git_PracticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_PracticTests.m; sourceTree = "<group>"; };
+		41A624091A979EDE00F968EC /* NewTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTestClass.h; sourceTree = "<group>"; };
+		41A6240A1A979EDE00F968EC /* NewTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				41A623F21A9796C900F968EC /* LaunchScreen.xib */,
 				41A623E71A9796C900F968EC /* Git_Practic.xcdatamodeld */,
 				41A623E01A9796C900F968EC /* Supporting Files */,
+				41A624091A979EDE00F968EC /* NewTestClass.h */,
+				41A6240A1A979EDE00F968EC /* NewTestClass.m */,
 			);
 			path = "Git Practic";
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 				41A623E61A9796C900F968EC /* AppDelegate.m in Sources */,
 				41A623E91A9796C900F968EC /* Git_Practic.xcdatamodeld in Sources */,
 				41A623EC1A9796C900F968EC /* ViewController.m in Sources */,
+				41A6240B1A979EDE00F968EC /* NewTestClass.m in Sources */,
 				41A623E31A9796C900F968EC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
